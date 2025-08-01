@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gaspetro")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e9e30d94782c4c1294c00c4909b64bc149024c69")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fe29a69723b6200701322fe0384361e90e946eec")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gaspetro")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gaspetro")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -34,4 +34,6 @@ C:\Users\Aluno\Documents\GitHub\projeto_gasespetro\Gaspetro\obj\Debug\net8.0-win
 C:\Users\Aluno\Documents\GitHub\projeto_gasespetro\Gaspetro\obj\Debug\net8.0-windows\Gaspetro.pdb
 C:\Users\Aluno\Documents\GitHub\projeto_gasespetro\Gaspetro\obj\Debug\net8.0-windows\Gaspetro.genruntimeconfig.cache
 C:\Users\Aluno\Documents\GitHub\projeto_gasespetro\Gaspetro\obj\Debug\net8.0-windows\ref\Gaspetro.dll
-C:\Users\Aluno\Documents\GitHub\projeto_gasespetro\Gaspetro\bin\Debug\net8.0-windows\BCrypt.Net-Core.dll
+C:\Users\Aluno\Documents\GitHub\projeto_gasespetro\Gaspetro\obj\Debug\net8.0-windows\Gaspetro.FrmLogin.resources
+C:\Users\Aluno\Documents\GitHub\projeto_gasespetro\Gaspetro\obj\Debug\net8.0-windows\Gaspetro.FrmMenu.resources
+C:\Users\Aluno\Documents\GitHub\projeto_gasespetro\Gaspetro\bin\Debug\net8.0-windows\BCrypt.Net-Next.dll

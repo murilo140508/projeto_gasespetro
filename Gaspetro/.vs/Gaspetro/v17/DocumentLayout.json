@@ -3,16 +3,40 @@
   "WorkspaceRootPath": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_gasespetro\\Gaspetro\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C9B18F8F-A203-4089-8FE3-D5753AB4C6A1}|Gaspetro.csproj|c:\\users\\aluno\\documents\\github\\projeto_gasespetro\\gaspetro\\frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C9B18F8F-A203-4089-8FE3-D5753AB4C6A1}|Gaspetro.csproj|solutionrelative:frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C9B18F8F-A203-4089-8FE3-D5753AB4C6A1}|Gaspetro.csproj|c:\\users\\aluno\\documents\\github\\projeto_gasespetro\\gaspetro\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9B18F8F-A203-4089-8FE3-D5753AB4C6A1}|Gaspetro.csproj|solutionrelative:frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C9B18F8F-A203-4089-8FE3-D5753AB4C6A1}|Gaspetro.csproj|c:\\users\\aluno\\documents\\github\\projeto_gasespetro\\gaspetro\\frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{C9B18F8F-A203-4089-8FE3-D5753AB4C6A1}|Gaspetro.csproj|solutionrelative:frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{C9B18F8F-A203-4089-8FE3-D5753AB4C6A1}|Gaspetro.csproj|c:\\users\\aluno\\documents\\github\\projeto_gasespetro\\gaspetro\\frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9B18F8F-A203-4089-8FE3-D5753AB4C6A1}|Gaspetro.csproj|solutionrelative:frmmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9B18F8F-A203-4089-8FE3-D5753AB4C6A1}|Gaspetro.csproj|c:\\users\\aluno\\documents\\github\\projeto_gasespetro\\gaspetro\\frmproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9B18F8F-A203-4089-8FE3-D5753AB4C6A1}|Gaspetro.csproj|solutionrelative:frmproduto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9B18F8F-A203-4089-8FE3-D5753AB4C6A1}|Gaspetro.csproj|c:\\users\\aluno\\documents\\github\\projeto_gasespetro\\gaspetro\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9B18F8F-A203-4089-8FE3-D5753AB4C6A1}|Gaspetro.csproj|solutionrelative:frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9B18F8F-A203-4089-8FE3-D5753AB4C6A1}|Gaspetro.csproj|c:\\users\\aluno\\documents\\github\\projeto_gasespetro\\gaspetro\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9B18F8F-A203-4089-8FE3-D5753AB4C6A1}|Gaspetro.csproj|solutionrelative:frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9B18F8F-A203-4089-8FE3-D5753AB4C6A1}|Gaspetro.csproj|c:\\users\\aluno\\documents\\github\\projeto_gasespetro\\gaspetro\\classe\\sessaousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9B18F8F-A203-4089-8FE3-D5753AB4C6A1}|Gaspetro.csproj|solutionrelative:classe\\sessaousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C9B18F8F-A203-4089-8FE3-D5753AB4C6A1}|Gaspetro.csproj|c:\\users\\aluno\\documents\\github\\projeto_gasespetro\\gaspetro\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C9B18F8F-A203-4089-8FE3-D5753AB4C6A1}|Gaspetro.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9B18F8F-A203-4089-8FE3-D5753AB4C6A1}|Gaspetro.csproj|C:\\Users\\Aluno\\Documents\\GitHub\\projeto_gasespetro\\Gaspetro\\frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{C9B18F8F-A203-4089-8FE3-D5753AB4C6A1}|Gaspetro.csproj|solutionrelative:frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C9B18F8F-A203-4089-8FE3-D5753AB4C6A1}|Gaspetro.csproj|c:\\users\\aluno\\documents\\github\\projeto_gasespetro\\gaspetro\\frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C9B18F8F-A203-4089-8FE3-D5753AB4C6A1}|Gaspetro.csproj|solutionrelative:frmusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +46,101 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Sessaousuario.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_gasespetro\\Gaspetro\\classe\\Sessaousuario.cs",
+              "RelativeDocumentMoniker": "classe\\Sessaousuario.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_gasespetro\\Gaspetro\\classe\\Sessaousuario.cs",
+              "RelativeToolTip": "classe\\Sessaousuario.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T13:48:18.77Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "FrmMenu.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_gasespetro\\Gaspetro\\FrmMenu.cs",
+              "RelativeDocumentMoniker": "FrmMenu.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_gasespetro\\Gaspetro\\FrmMenu.cs [Projeto]",
+              "RelativeToolTip": "FrmMenu.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T15:28:12.466Z",
+              "IsPinned": true,
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmProduto.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_gasespetro\\Gaspetro\\FrmProduto.cs",
+              "RelativeDocumentMoniker": "FrmProduto.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_gasespetro\\Gaspetro\\FrmProduto.cs [Projeto]",
+              "RelativeToolTip": "FrmProduto.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T16:01:36.039Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmMenu.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_gasespetro\\Gaspetro\\FrmMenu.cs",
+              "RelativeDocumentMoniker": "FrmMenu.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_gasespetro\\Gaspetro\\FrmMenu.cs",
+              "RelativeToolTip": "FrmMenu.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAcwB4AAABPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T15:56:51.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_gasespetro\\Gaspetro\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_gasespetro\\Gaspetro\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T15:40:50.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_gasespetro\\Gaspetro\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "FrmLogin.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_gasespetro\\Gaspetro\\FrmLogin.cs",
+              "RelativeToolTip": "FrmLogin.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAAUwCoAAABYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T13:34:27.399Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmLogin.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_gasespetro\\Gaspetro\\FrmLogin.cs",
+              "RelativeDocumentMoniker": "FrmLogin.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_gasespetro\\Gaspetro\\FrmLogin.cs [Projeto]",
+              "RelativeToolTip": "FrmLogin.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-01T13:33:39.488Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "FrmUsuario.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_gasespetro\\Gaspetro\\FrmUsuario.cs",
               "RelativeDocumentMoniker": "FrmUsuario.cs",
@@ -38,28 +152,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "FrmUsuario.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_gasespetro\\Gaspetro\\FrmUsuario.cs",
               "RelativeDocumentMoniker": "FrmUsuario.cs",
               "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_gasespetro\\Gaspetro\\FrmUsuario.cs",
               "RelativeToolTip": "FrmUsuario.cs",
-              "ViewState": "AQIAAGMAAAAAAAAAAAAswH8AAAAAAAAA",
+              "ViewState": "AQIAAJcAAAAAAAAAAADwv58AAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-25T12:36:57.179Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_gasespetro\\Gaspetro\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_gasespetro\\Gaspetro\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-25T12:10:41.515Z",
               "EditorCaption": ""
             }
           ]

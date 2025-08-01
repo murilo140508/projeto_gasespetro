@@ -43,13 +43,15 @@
             btnExcluir = new Button();
             btnPesquisar = new Button();
             dataGridView1 = new DataGridView();
+            label6 = new Label();
+            chkAtivo = new CheckBox();
             ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(116, 27);
+            label1.Location = new Point(116, 9);
             label1.Name = "label1";
             label1.Size = new Size(58, 20);
             label1.TabIndex = 0;
@@ -58,7 +60,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(116, 80);
+            label2.Location = new Point(115, 61);
             label2.Name = "label2";
             label2.Size = new Size(53, 20);
             label2.TabIndex = 1;
@@ -67,7 +69,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(116, 137);
+            label3.Location = new Point(116, 111);
             label3.Name = "label3";
             label3.Size = new Size(52, 20);
             label3.TabIndex = 2;
@@ -76,7 +78,7 @@
             // label4
             // 
             label4.AutoSize = true;
-            label4.Location = new Point(116, 192);
+            label4.Location = new Point(116, 160);
             label4.Name = "label4";
             label4.Size = new Size(52, 20);
             label4.TabIndex = 3;
@@ -85,7 +87,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(116, 247);
+            label5.Location = new Point(120, 209);
             label5.Name = "label5";
             label5.Size = new Size(49, 20);
             label5.TabIndex = 4;
@@ -93,28 +95,28 @@
             // 
             // TxtNome
             // 
-            TxtNome.Location = new Point(191, 77);
+            TxtNome.Location = new Point(191, 58);
             TxtNome.Name = "TxtNome";
             TxtNome.Size = new Size(125, 27);
             TxtNome.TabIndex = 5;
             // 
             // TxtCodigo
             // 
-            TxtCodigo.Location = new Point(191, 27);
+            TxtCodigo.Location = new Point(191, 9);
             TxtCodigo.Name = "TxtCodigo";
             TxtCodigo.Size = new Size(125, 27);
             TxtCodigo.TabIndex = 6;
             // 
             // TxtEmail
             // 
-            TxtEmail.Location = new Point(191, 134);
+            TxtEmail.Location = new Point(191, 108);
             TxtEmail.Name = "TxtEmail";
             TxtEmail.Size = new Size(125, 27);
             TxtEmail.TabIndex = 7;
             // 
             // TxtSenha
             // 
-            TxtSenha.Location = new Point(191, 189);
+            TxtSenha.Location = new Point(191, 157);
             TxtSenha.Name = "TxtSenha";
             TxtSenha.PasswordChar = '*';
             TxtSenha.Size = new Size(125, 27);
@@ -123,10 +125,11 @@
             // CboCargo
             // 
             CboCargo.FormattingEnabled = true;
-            CboCargo.Location = new Point(191, 244);
+            CboCargo.Location = new Point(191, 205);
             CboCargo.Name = "CboCargo";
             CboCargo.Size = new Size(151, 28);
             CboCargo.TabIndex = 9;
+            CboCargo.SelectedIndexChanged += CboCargo_SelectedIndexChanged;
             // 
             // btnCadastrar
             // 
@@ -175,12 +178,35 @@
             dataGridView1.RowHeadersWidth = 51;
             dataGridView1.Size = new Size(590, 188);
             dataGridView1.TabIndex = 14;
+            dataGridView1.CellClick += dataGridView1_CellClick;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Location = new Point(125, 249);
+            label6.Name = "label6";
+            label6.Size = new Size(44, 20);
+            label6.TabIndex = 15;
+            label6.Text = "Ativo";
+            // 
+            // chkAtivo
+            // 
+            chkAtivo.AutoSize = true;
+            chkAtivo.Location = new Point(191, 249);
+            chkAtivo.Name = "chkAtivo";
+            chkAtivo.Size = new Size(66, 24);
+            chkAtivo.TabIndex = 16;
+            chkAtivo.Text = "Ativo";
+            chkAtivo.UseVisualStyleBackColor = true;
+            chkAtivo.Visible = false;
             // 
             // FrmUsuario
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 504);
+            Controls.Add(chkAtivo);
+            Controls.Add(label6);
             Controls.Add(dataGridView1);
             Controls.Add(btnPesquisar);
             Controls.Add(btnExcluir);
@@ -221,5 +247,7 @@
         private Button btnExcluir;
         private Button btnPesquisar;
         private DataGridView dataGridView1;
+        private Label label6;
+        private CheckBox chkAtivo;
     }
 }
