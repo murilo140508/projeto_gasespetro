@@ -18,6 +18,8 @@ create table tipo(
 codigotipo int primary key auto_increment,
 descricao varchar(100)
 );
+insert into tipo(descricao) values("Bom Bom");
+insert into tipo(descricao) values("Barra de chocolate");
 
 create table produto(
 codigoproduto int primary key auto_increment,

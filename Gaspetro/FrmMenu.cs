@@ -31,5 +31,14 @@ namespace Gaspetro
             toolStripStatusLabel2.Text = Sessaousuario.Cargousuario.ToString();
 
         }
+
+        private void produtoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmProduto produto = new FrmProduto();
+            // disendo que é filho do menu
+            produto.MdiParent = this;
+            //mostra a janela
+            produto.Show();
+        }
     }
 }

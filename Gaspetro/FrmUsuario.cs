@@ -5,7 +5,7 @@ namespace Gaspetro
 {
     public partial class FrmUsuario : Form
     {
-        MySqlConnection conexao;
+        MySqlConnection conn;
         int idcargo;
 
         public FrmUsuario()
@@ -19,9 +19,9 @@ namespace Gaspetro
             try
             {
                 string data_source = "datasource=localhost;username=root;password='';database=projeto";
-                conexao = new MySqlConnection(data_source);
+                conn = new MySqlConnection(data_source);
                 string sql = "insert into usuario(nome,email,senha,cargo,ativo) values (@nome,@email,@senha,@cargo,1)";
-                MySqlCommand command = new MySqlCommand(sql, conexao);
+                MySqlCommand command = new MySqlCommand(sql, conn);
                 string senha = TxtSenha.Text.ToString();
                 string senhahash = BCrypt.Net.BCrypt.HashPassword(senha);
 
@@ -29,7 +29,7 @@ namespace Gaspetro
                 command.Parameters.AddWithValue("@email", TxtEmail.Text);
                 command.Parameters.AddWithValue("@senha", senhahash);
                 command.Parameters.AddWithValue("@cargo", idcargo);
-                conexao.Open();
+                conn.Open();
                 if (command.ExecuteNonQuery() == 1)
                 {
                     MessageBox.Show("Cadasro com sucesso");
@@ -38,7 +38,7 @@ namespace Gaspetro
                 {
                     MessageBox.Show("Erro no cadastro");
                 }
-                conexao.Close();
+                conn.Close();
             }
             catch (Exception ex)
 
@@ -66,9 +66,9 @@ namespace Gaspetro
             try
             {
                 string data_source = "datasource=localhost;username=root;password='';database=projeto";
-                conexao = new MySqlConnection(data_source);
+                conn = new MySqlConnection(data_source);
                 string sql = "Update usuario set nome=@nome,email=@email,senha=@senha,cargo=@cargo where codigo=@id";
-                MySqlCommand command = new MySqlCommand(sql, conexao);
+                MySqlCommand command = new MySqlCommand(sql, conn);
                 string senha = TxtSenha.Text.ToString();
                 string senhahash = BCrypt.Net.BCrypt.HashPassword(senha);
 
@@ -77,7 +77,7 @@ namespace Gaspetro
                 command.Parameters.AddWithValue("@senha", senhahash);
                 command.Parameters.AddWithValue("@cargo", idcargo);
                 command.Parameters.AddWithValue("@id", Convert.ToInt32(TxtCodigo.Text));
-                conexao.Open();
+                conn.Open();
                 if (command.ExecuteNonQuery() == 1)
                 {
                     MessageBox.Show("Editado com sucesso");
@@ -86,7 +86,7 @@ namespace Gaspetro
                 {
                     MessageBox.Show("Erro ao Editar");
                 }
-                conexao.Close();
+                conn.Close();
             }
             catch (Exception ex)
 
@@ -104,11 +104,11 @@ namespace Gaspetro
                 {
 
                     string datasource = "datasource=localhost;username=root;password='';database=projeto";
-                    conexao = new MySqlConnection(datasource);
+                    conn = new MySqlConnection(datasource);
                     string sql = "Delete from usuario where codigo=@id";
-                    MySqlCommand command = new MySqlCommand(sql, conexao);
+                    MySqlCommand command = new MySqlCommand(sql, conn);
                     command.Parameters.AddWithValue("@id", Convert.ToInt32(TxtCodigo.Text));
-                    conexao.Open();
+                    conn.Open();
                     if (command.ExecuteNonQuery() == 1)
                     {
                         MessageBox.Show("Excluido com sucesso");
@@ -117,7 +117,7 @@ namespace Gaspetro
                     {
                         MessageBox.Show("Erro ao Excluir");
                     }
-                    conexao.Close();
+                    conn.Close();
                 }
                 else
                 {
@@ -139,12 +139,12 @@ namespace Gaspetro
         {
             DataTable dt = new DataTable();
             string datasource = "datasource=localhost;username=root;password='';database=projeto";
-            conexao = new MySqlConnection(datasource);
-            MySqlCommand comando = new MySqlCommand(sql, conexao);
-            conexao.Open();
+            conn = new MySqlConnection(datasource);
+            MySqlCommand comando = new MySqlCommand(sql, conn);
+            conn.Open();
             MySqlDataAdapter adapter = new MySqlDataAdapter(comando);
             adapter.Fill(dt);
-            conexao.Close();
+            conn.Close();
             return dt;
         }
 
