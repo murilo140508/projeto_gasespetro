@@ -70,14 +70,14 @@
             // usuarioToolStripMenuItem
             // 
             usuarioToolStripMenuItem.Name = "usuarioToolStripMenuItem";
-            usuarioToolStripMenuItem.Size = new Size(224, 26);
+            usuarioToolStripMenuItem.Size = new Size(145, 26);
             usuarioToolStripMenuItem.Text = "Usuario";
             usuarioToolStripMenuItem.Click += usuarioToolStripMenuItem_Click;
             // 
             // produtoToolStripMenuItem
             // 
             produtoToolStripMenuItem.Name = "produtoToolStripMenuItem";
-            produtoToolStripMenuItem.Size = new Size(224, 26);
+            produtoToolStripMenuItem.Size = new Size(145, 26);
             produtoToolStripMenuItem.Text = "Produto";
             produtoToolStripMenuItem.Click += produtoToolStripMenuItem_Click;
             // 
@@ -91,8 +91,9 @@
             // produtoToolStripMenuItem1
             // 
             produtoToolStripMenuItem1.Name = "produtoToolStripMenuItem1";
-            produtoToolStripMenuItem1.Size = new Size(145, 26);
+            produtoToolStripMenuItem1.Size = new Size(224, 26);
             produtoToolStripMenuItem1.Text = "Produto";
+            produtoToolStripMenuItem1.Click += produtoToolStripMenuItem1_Click;
             // 
             // relatorioToolStripMenuItem
             // 

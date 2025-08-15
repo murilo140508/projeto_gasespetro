@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "G5+FlWrR7RC3g0sSuwHadeBIH487VIiuJSwsao+0dOSSoKS8pZ1avpAuVf6cKdwidAgfhSUxBNsNSw3W/jPa2g==",
+  "dgSpecHash": "LoSO+4+GXzNQAFi19fi9Hie8vbHDd4svmGSy+eyemAOGhWDTAg241wZyZlh4xMzqCT9Pg7RLY+TOQFCfdKnw5g==",
   "success": true,
   "projectFilePath": "C:\\Users\\Aluno\\Documents\\GitHub\\projeto_gasespetro\\Gaspetro\\Gaspetro.csproj",
   "expectedPackageFiles": [
@@ -12,7 +12,7 @@
     "C:\\Users\\Aluno\\.nuget\\packages\\k4os.hash.xxhash\\1.0.8\\k4os.hash.xxhash.1.0.8.nupkg.sha512",
     "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\Aluno\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
-    "C:\\Users\\Aluno\\.nuget\\packages\\mysql.data\\9.3.0\\mysql.data.9.3.0.nupkg.sha512",
+    "C:\\Users\\Aluno\\.nuget\\packages\\mysql.data\\9.4.0\\mysql.data.9.4.0.nupkg.sha512",
     "C:\\Users\\Aluno\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
     "C:\\Users\\Aluno\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
     "C:\\Users\\Aluno\\.nuget\\packages\\system.diagnostics.diagnosticsource\\8.0.1\\system.diagnostics.diagnosticsource.8.0.1.nupkg.sha512",

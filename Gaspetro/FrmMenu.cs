@@ -40,5 +40,13 @@ namespace Gaspetro
             //mostra a janela
             produto.Show();
         }
+
+        private void produtoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            FrmListaProduto FrmListaProduto = new FrmListaProduto();
+            FrmListaProduto.MdiParent = this;
+            FrmListaProduto.Show();
+
+        }
     }
 }

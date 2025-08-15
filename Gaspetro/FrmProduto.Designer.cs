@@ -197,6 +197,7 @@
             btnExcluir.TabIndex = 16;
             btnExcluir.Text = "Excluir";
             btnExcluir.UseVisualStyleBackColor = true;
+            btnExcluir.Click += btnExcluir_Click;
             // 
             // btnPesquisar
             // 
@@ -206,6 +207,7 @@
             btnPesquisar.TabIndex = 17;
             btnPesquisar.Text = "Pesquisar";
             btnPesquisar.UseVisualStyleBackColor = true;
+            btnPesquisar.Click += btnPesquisar_Click;
             // 
             // btnFoto
             // 
@@ -225,6 +227,7 @@
             dgvProduto.RowHeadersWidth = 51;
             dgvProduto.Size = new Size(582, 123);
             dgvProduto.TabIndex = 19;
+            dgvProduto.CellClick += dgvProduto_CellClick;
             // 
             // Foto
             // 

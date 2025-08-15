@@ -103,7 +103,7 @@
           "lib/netstandard1.0/_._": {}
         }
       },
-      "MySql.Data/9.3.0": {
+      "MySql.Data/9.4.0": {
         "type": "package",
         "dependencies": {
           "BouncyCastle.Cryptography": "2.5.1",
@@ -659,10 +659,10 @@
         "runtime.json"
       ]
     },
-    "MySql.Data/9.3.0": {
-      "sha512": "f4iZBKubzwNnc84ecEwguv5TSwHpoArFGa+XpZY+8S9SoAnQaHfymLdZUKK4LbUbH9ACZ6X71LUvq58Mfdyipw==",
+    "MySql.Data/9.4.0": {
+      "sha512": "yGfcv5TSj72rwUdywZqtM90qlZ9AuSNckG2Fb9OxuXkskhnqi/DGBaOji9z2G4q3BgFfddbm/WmZzFfAggjbSw==",
       "type": "package",
-      "path": "mysql.data/9.3.0",
+      "path": "mysql.data/9.4.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -682,7 +682,7 @@
         "lib/netstandard2.1/MySql.Data.dll",
         "lib/netstandard2.1/MySql.Data.xml",
         "logo-mysql-170x115.png",
-        "mysql.data.9.3.0.nupkg.sha512",
+        "mysql.data.9.4.0.nupkg.sha512",
         "mysql.data.nuspec",
         "runtimes/win-x64/native/comerr64.dll",
         "runtimes/win-x64/native/gssapi64.dll",
@@ -1650,7 +1650,7 @@
   "projectFileDependencyGroups": {
     "net8.0-windows7.0": [
       "BCrypt.Net-Next >= 4.0.3",
-      "MySql.Data >= 9.3.0"
+      "MySql.Data >= 9.4.0"
     ]
   },
   "packageFolders": {
@@ -1709,7 +1709,7 @@
           },
           "MySql.Data": {
             "target": "Package",
-            "version": "[9.3.0, )"
+            "version": "[9.4.0, )"
           }
         },
         "imports": [
