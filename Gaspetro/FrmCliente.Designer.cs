@@ -36,21 +36,21 @@
             label6 = new Label();
             label7 = new Label();
             label8 = new Label();
-            textBox1 = new TextBox();
-            textBox2 = new TextBox();
-            textBox3 = new TextBox();
-            textBox4 = new TextBox();
-            textBox5 = new TextBox();
-            textBox6 = new TextBox();
-            textBox7 = new TextBox();
-            textBox8 = new TextBox();
-            button1 = new Button();
-            button2 = new Button();
-            button3 = new Button();
-            button4 = new Button();
-            dataGridView1 = new DataGridView();
+            txtCodigo = new TextBox();
+            txtNome = new TextBox();
+            txtTelefone = new TextBox();
+            txtEmail = new TextBox();
+            txtCNPJ = new TextBox();
+            txtCep = new TextBox();
+            txtNumero = new TextBox();
+            txtcomplemento = new TextBox();
+            btnCadastrar = new Button();
+            btnExcluir = new Button();
+            btnEditar = new Button();
+            btnPesquisar = new Button();
+            dgvCliente = new DataGridView();
             label9 = new Label();
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)dgvCliente).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -118,112 +118,114 @@
             // label8
             // 
             label8.AutoSize = true;
-            label8.Location = new Point(48, 312);
+            label8.Location = new Point(8, 312);
             label8.Name = "label8";
             label8.Size = new Size(102, 20);
             label8.TabIndex = 7;
             label8.Text = "complemento";
+            label8.Click += label8_Click;
             // 
-            // textBox1
+            // txtCodigo
             // 
-            textBox1.Location = new Point(116, 6);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(125, 27);
-            textBox1.TabIndex = 8;
+            txtCodigo.Location = new Point(116, 6);
+            txtCodigo.Name = "txtCodigo";
+            txtCodigo.Size = new Size(125, 27);
+            txtCodigo.TabIndex = 8;
             // 
-            // textBox2
+            // txtNome
             // 
-            textBox2.Location = new Point(116, 54);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(125, 27);
-            textBox2.TabIndex = 9;
+            txtNome.Location = new Point(116, 54);
+            txtNome.Name = "txtNome";
+            txtNome.Size = new Size(125, 27);
+            txtNome.TabIndex = 9;
             // 
-            // textBox3
+            // txtTelefone
             // 
-            textBox3.Location = new Point(116, 93);
-            textBox3.Name = "textBox3";
-            textBox3.Size = new Size(125, 27);
-            textBox3.TabIndex = 10;
+            txtTelefone.Location = new Point(116, 93);
+            txtTelefone.Name = "txtTelefone";
+            txtTelefone.Size = new Size(125, 27);
+            txtTelefone.TabIndex = 10;
             // 
-            // textBox4
+            // txtEmail
             // 
-            textBox4.Location = new Point(116, 138);
-            textBox4.Name = "textBox4";
-            textBox4.Size = new Size(125, 27);
-            textBox4.TabIndex = 11;
+            txtEmail.Location = new Point(116, 138);
+            txtEmail.Name = "txtEmail";
+            txtEmail.Size = new Size(125, 27);
+            txtEmail.TabIndex = 11;
             // 
-            // textBox5
+            // txtCNPJ
             // 
-            textBox5.Location = new Point(116, 176);
-            textBox5.Name = "textBox5";
-            textBox5.Size = new Size(125, 27);
-            textBox5.TabIndex = 12;
+            txtCNPJ.Location = new Point(116, 176);
+            txtCNPJ.Name = "txtCNPJ";
+            txtCNPJ.Size = new Size(125, 27);
+            txtCNPJ.TabIndex = 12;
             // 
-            // textBox6
+            // txtCep
             // 
-            textBox6.Location = new Point(116, 219);
-            textBox6.Name = "textBox6";
-            textBox6.Size = new Size(125, 27);
-            textBox6.TabIndex = 13;
+            txtCep.Location = new Point(116, 219);
+            txtCep.Name = "txtCep";
+            txtCep.Size = new Size(125, 27);
+            txtCep.TabIndex = 13;
             // 
-            // textBox7
+            // txtNumero
             // 
-            textBox7.Location = new Point(116, 266);
-            textBox7.Name = "textBox7";
-            textBox7.Size = new Size(125, 27);
-            textBox7.TabIndex = 14;
+            txtNumero.Location = new Point(116, 266);
+            txtNumero.Name = "txtNumero";
+            txtNumero.Size = new Size(125, 27);
+            txtNumero.TabIndex = 14;
             // 
-            // textBox8
+            // txtcomplemento
             // 
-            textBox8.Location = new Point(116, 309);
-            textBox8.Name = "textBox8";
-            textBox8.Size = new Size(125, 27);
-            textBox8.TabIndex = 15;
+            txtcomplemento.Location = new Point(116, 309);
+            txtcomplemento.Name = "txtcomplemento";
+            txtcomplemento.Size = new Size(125, 27);
+            txtcomplemento.TabIndex = 15;
             // 
-            // button1
+            // btnCadastrar
             // 
-            button1.Location = new Point(12, 357);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 16;
-            button1.Text = "button1";
-            button1.UseVisualStyleBackColor = true;
+            btnCadastrar.Location = new Point(12, 357);
+            btnCadastrar.Name = "btnCadastrar";
+            btnCadastrar.Size = new Size(94, 29);
+            btnCadastrar.TabIndex = 16;
+            btnCadastrar.Text = "Cadastrar";
+            btnCadastrar.UseVisualStyleBackColor = true;
+            btnCadastrar.Click += btnCadastrar_Click;
             // 
-            // button2
+            // btnExcluir
             // 
-            button2.Location = new Point(116, 357);
-            button2.Name = "button2";
-            button2.Size = new Size(94, 29);
-            button2.TabIndex = 17;
-            button2.Text = "button2";
-            button2.UseVisualStyleBackColor = true;
+            btnExcluir.Location = new Point(116, 357);
+            btnExcluir.Name = "btnExcluir";
+            btnExcluir.Size = new Size(94, 29);
+            btnExcluir.TabIndex = 17;
+            btnExcluir.Text = "Excluir";
+            btnExcluir.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // btnEditar
             // 
-            button3.Location = new Point(222, 357);
-            button3.Name = "button3";
-            button3.Size = new Size(94, 29);
-            button3.TabIndex = 18;
-            button3.Text = "button3";
-            button3.UseVisualStyleBackColor = true;
+            btnEditar.Location = new Point(216, 357);
+            btnEditar.Name = "btnEditar";
+            btnEditar.Size = new Size(94, 29);
+            btnEditar.TabIndex = 18;
+            btnEditar.Text = "Editar";
+            btnEditar.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnPesquisar
             // 
-            button4.Location = new Point(350, 357);
-            button4.Name = "button4";
-            button4.Size = new Size(94, 29);
-            button4.TabIndex = 19;
-            button4.Text = "button4";
-            button4.UseVisualStyleBackColor = true;
+            btnPesquisar.Location = new Point(316, 357);
+            btnPesquisar.Name = "btnPesquisar";
+            btnPesquisar.Size = new Size(94, 29);
+            btnPesquisar.TabIndex = 19;
+            btnPesquisar.Text = "Pesquisar";
+            btnPesquisar.UseVisualStyleBackColor = true;
             // 
-            // dataGridView1
+            // dgvCliente
             // 
-            dataGridView1.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridView1.Location = new Point(310, 43);
-            dataGridView1.Name = "dataGridView1";
-            dataGridView1.RowHeadersWidth = 51;
-            dataGridView1.Size = new Size(455, 261);
-            dataGridView1.TabIndex = 20;
+            dgvCliente.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dgvCliente.Location = new Point(310, 43);
+            dgvCliente.Name = "dgvCliente";
+            dgvCliente.RowHeadersWidth = 51;
+            dgvCliente.Size = new Size(455, 261);
+            dgvCliente.TabIndex = 20;
             // 
             // label9
             // 
@@ -240,19 +242,19 @@
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
             Controls.Add(label9);
-            Controls.Add(dataGridView1);
-            Controls.Add(button4);
-            Controls.Add(button3);
-            Controls.Add(button2);
-            Controls.Add(button1);
-            Controls.Add(textBox8);
-            Controls.Add(textBox7);
-            Controls.Add(textBox6);
-            Controls.Add(textBox5);
-            Controls.Add(textBox4);
-            Controls.Add(textBox3);
-            Controls.Add(textBox2);
-            Controls.Add(textBox1);
+            Controls.Add(dgvCliente);
+            Controls.Add(btnPesquisar);
+            Controls.Add(btnEditar);
+            Controls.Add(btnExcluir);
+            Controls.Add(btnCadastrar);
+            Controls.Add(txtcomplemento);
+            Controls.Add(txtNumero);
+            Controls.Add(txtCep);
+            Controls.Add(txtCNPJ);
+            Controls.Add(txtEmail);
+            Controls.Add(txtTelefone);
+            Controls.Add(txtNome);
+            Controls.Add(txtCodigo);
             Controls.Add(label8);
             Controls.Add(label7);
             Controls.Add(label6);
@@ -263,7 +265,7 @@
             Controls.Add(label1);
             Name = "FrmCliente";
             Text = "FrmCliente";
-            ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)dgvCliente).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -278,19 +280,19 @@
         private Label label6;
         private Label label7;
         private Label label8;
-        private TextBox textBox1;
-        private TextBox textBox2;
-        private TextBox textBox3;
-        private TextBox textBox4;
-        private TextBox textBox5;
-        private TextBox textBox6;
-        private TextBox textBox7;
-        private TextBox textBox8;
-        private Button button1;
-        private Button button2;
-        private Button button3;
-        private Button button4;
-        private DataGridView dataGridView1;
+        private TextBox txtCodigo;
+        private TextBox txtNome;
+        private TextBox txtTelefone;
+        private TextBox txtEmail;
+        private TextBox txtCNPJ;
+        private TextBox txtCep;
+        private TextBox txtNumero;
+        private TextBox txtcomplemento;
+        private Button btnCadastrar;
+        private Button btnExcluir;
+        private Button btnEditar;
+        private Button btnPesquisar;
+        private DataGridView dgvCliente;
         private Label label9;
     }
 }

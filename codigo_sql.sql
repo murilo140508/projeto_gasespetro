@@ -46,10 +46,13 @@ telefone varchar(45)
 create table pedido(
 codigopedido int primary key auto_increment,
 datapedido datetime,
+data_entrega datetime,
 codigocliente int,
 formapagamento varchar(100),
 dataentrega varchar(45),
 codigoUsuario int,
+formapagamento varchar(60),
+status varchar(60),
 constraint fk_usuario foreign key (codigousuario) references usuario(codigo),
 constraint fk_cliente foreign key (codigocliente) references cliente(codigocliente)
 );

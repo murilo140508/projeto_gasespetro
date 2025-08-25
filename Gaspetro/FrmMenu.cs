@@ -48,5 +48,12 @@ namespace Gaspetro
             FrmListaProduto.Show();
 
         }
+
+        private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmCliente cliente = new FrmCliente();  
+            cliente.MdiParent = this;
+            cliente.Show();
+        }
     }
 }

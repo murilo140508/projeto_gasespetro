@@ -41,3 +41,5 @@ C:\Users\Aluno\Documents\GitHub\projeto_gasespetro\Gaspetro\obj\Debug\net8.0-win
 C:\Users\Aluno\Documents\GitHub\projeto_gasespetro\Gaspetro\obj\Debug\net8.0-windows\Gaspetro.FrmProduto.resources
 C:\Users\Aluno\Documents\GitHub\projeto_gasespetro\Gaspetro\obj\Debug\net8.0-windows\Gaspetro.FrmListaProduto.resources
 C:\Users\Aluno\Documents\GitHub\projeto_gasespetro\Gaspetro\obj\Debug\net8.0-windows\Gaspetro.FrmPedido.resources
+C:\Users\Aluno\Documents\GitHub\projeto_gasespetro\Gaspetro\obj\Debug\net8.0-windows\Gaspetro.FrmCliente.resources
+C:\Users\Aluno\Documents\GitHub\projeto_gasespetro\Gaspetro\obj\Debug\net8.0-windows\Gaspetro.FrmGraficos.resources
